@@ -1,0 +1,17 @@
+.signUpButton {
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(131, 249, 161);
+  color: rgb(255, 140, 0);
+  font-size: 20px;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.signUpButton:focus {
+  box-shadow: 1px 1px 50px yellow;
+}

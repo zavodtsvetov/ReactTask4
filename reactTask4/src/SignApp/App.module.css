@@ -1,0 +1,34 @@
+* {
+  background-color: rgb(249, 240, 227);
+}
+
+.welcome {
+  font-size: 30px;
+  font-family: Tahoma, sans-serif;
+}
+
+.styleButton {
+  display: flex;
+  justify-content: center;
+}
+.signUpButton {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(69, 48, 208);
+  color: rgb(253, 221, 182);
+  font-size: 20px;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.signUpButton:focus {
+  box-shadow: 1px 1px 40px rgb(30, 255, 9);
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

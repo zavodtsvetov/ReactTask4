@@ -1,0 +1,15 @@
+.email {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.emailInput {
+  border: 3px solid black;
+  background-color: white;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
